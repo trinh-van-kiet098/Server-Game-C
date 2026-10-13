@@ -1,0 +1,70 @@
+# CMake build directories and generated files
+/build/
+/build-*/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Testing/
+
+# Compiled artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.pch
+*.gch
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+
+# Build output, caches, and extracted game data
+/var/build/*
+!/var/build/.gitkeep
+/var/ccache/*
+!/var/ccache/.gitkeep
+/var/docker/build/*
+!/var/docker/build/.gitkeep
+/var/docker/ccache/*
+!/var/docker/ccache/.gitkeep
+/var/extractors/*
+!/var/extractors/*/
+/var/extractors/*/*
+!/var/extractors/*/.gitkeep
+
+# Generated server distribution and local configuration
+/env/dist/*
+!/env/dist/
+!/env/dist/.gitkeep
+!/env/dist/etc/
+/env/dist/etc/*
+!/env/dist/etc/.gitkeep
+!/env/dist/logs/
+/env/dist/logs/*
+!/env/dist/logs/.gitkeep
+/env/user/*
+!/env/user/.gitkeep
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+*~
+
+# IDE and operating system files
+.vs/
+.idea/
+*.user
+*.suo
+*.swp
+.DS_Store
+Thumbs.db
